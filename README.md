@@ -55,3 +55,9 @@ git push (от англ. push, «толкать») — загрузи комми
 #Копирование чужих репозиториев
 #Клонирование
 git clone git@github.com:TheGreatOwner/the-great-project.git (от англ. clone, «клон», «копия») — склонируй репозиторий с URL the-great-project.git из аккаунта TheGreatOwner на мой локальный компьютер.
+
+#Статусы
+untracked - Гит не следит за ними
+staged/indexed/cached - при git add меняют статус на staged
+tracked - git commit + git add
+modified - файл был закоммичен и после этого изменён.
